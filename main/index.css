@@ -169,15 +169,15 @@
 
 }
 
-.messangers {
+.messengers {
     display: flex;
     align-items: center;
-    /* column-gap: 30px; */
+    column-gap: 30px;
 }
 
 .contact_btn {
     display: flex;
-    /* flex-grow: 1; */
+    flex-grow: 1;
     align-items: center;
     margin: 0 auto;
     padding: 46px 20px;
