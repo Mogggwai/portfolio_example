@@ -12,7 +12,7 @@
 .content {
     width: 1200px;
     padding: 0 15px;
-    margin: 0 auto 80px;
+    margin: 0 auto;
 }
 
 /*    header */
@@ -20,23 +20,25 @@
 .header {
     padding: 80px 0;
     color: burlywood;
-    border-bottom-right-radius: 100px;
+    /* border-bottom-right-radius: 100px; */
     background: #252525 linear-gradient(158deg, #2f2f2f 0%, #202020 100%);
     font-family: "Montserrat", sans-serif;
     /* margin-bottom: 80px; */
 }
 
-.header-row {
+.header_row {
     display: flex;
+    flex-direction: row;
     align-items: center;
     column-gap: 60px;
 
 }
 
 .header_img {
+    display: block;
     border-radius: 80px;
     width: 540px;
-    height: 470px;
+    height: 540px;
 }
 
 .header_title {
@@ -48,7 +50,7 @@
 .header_text {
     margin-bottom: 20px;
     font-size: 26px;
-    font-weight: 300R;
+    font-weight: 300;
 }
 
 .header_btns {
@@ -95,39 +97,40 @@
     margin-bottom: 65px;
 }
 
-.portfolio-title {
+.portfolio_title {
     margin-bottom: 15px;
 }
 
 .projects {
     display: flex;
+    align-content: center;
+    margin: 0 auto;
     flex-direction: column;
     row-gap: 70px;
-    align-items: center;
 }
 
 .project {
     text-align: center;
 }
 
-.project-img {
+.project_img {
     margin-bottom: 30px;
     border-radius: 30px;
     transition: opacity 0.2s ease-in;
 }
 
-.project-img:hover {
+.project_img:hover {
     opacity: 0.8;
 }
 
 
-.project-title {
+.project_title {
     font-size: 22px;
     text-decoration: underline;
-    font-weight: 100;
+    font-weight: 500;
 }
 
-.project-title a {
+.project_title a {
     color: #000000;
 
 }
@@ -143,21 +146,21 @@
     text-align: center;
 }
 
-.contacts-title {
+.contacts_title {
     font-size: 52px;
     margin-bottom: 65px;
-
+    text-align: center;
 }
 
-.messangers {
+.messengers {
     display: flex;
     align-items: center;
-    /* column-gap: 30px; */
+    column-gap: 30px;
 }
 
-.contact-btn {
+.contact_btn {
+    flex-grow: 1;
     display: flex;
-    /* flex-grow: 1; */
     align-items: center;
     margin: 0 auto;
     padding: 46px 20px;
@@ -173,7 +176,7 @@
     font-style: normal; */
 }
 
-.contact-btn:hover {
+.contact_btn:hover {
     background-color: #1E1E1E;
 }
 
@@ -185,7 +188,7 @@ footer {
     color: #5D5D5D;
 }
 
-.footer-content {
+.footer_content {
     text-align: center;
     font-size: 14px;
 }
