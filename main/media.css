@@ -31,14 +31,6 @@
         font-size: 42px;
     }
 
-    /* .messengers {
-        gap: 20px;
-        flex-direction: column;
-    }
-
-    .contact_btn {
-        width: 100%;
-    } */
 
 }
 
@@ -120,6 +112,14 @@
         font-size: 28px;
     }
 
+    .messengers {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .contact_btn {
+        width: 100%;
+    }
 
     .messenger {
         padding: 32px 20px;
